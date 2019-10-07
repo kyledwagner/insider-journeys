@@ -3,17 +3,20 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
+.navbar-img {
+  width: 125px;
+}
 
 #mainNav {
   min-height: 56px;
-  background-color: #fff;
+  background-color: #0d2036;
 }
 
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #fff;
+  border: 1px solid #fff;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -23,7 +26,7 @@
 #mainNav .navbar-brand {
   color: #161616;
   font-weight: 700;
-  padding: .9rem 0;
+  padding: 1rem 0;
 }
 
 #mainNav .navbar-nav .nav-item:hover {
@@ -52,22 +55,22 @@
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.85);
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 0.5);
   }
   #mainNav .nav-link:active {
     color: white;
   }
   #mainNav.navbar-shrink {
-    background-color: #fff;
+    background-color: #0d2036;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #161616;
+    color: #fff;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #161616;
+    color: #fff;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
@@ -90,7 +93,7 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/banner/highlights-of-vietnam.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -98,11 +101,11 @@
 }
 
 .masthead h1 {
-  font-family: 'Varela Round';
+  font-family: 'Brandon Grotesque';
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.7));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -137,34 +140,19 @@
 
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  padding: 1.25rem 2rem;
-  font-family: 'Varela Round';
+  padding: 1rem 1.5rem;
+  font-family: 'Brandon Grotesque';
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: .15rem;
   border: 0;
 }
 
-.btn-primary {
-  background-color: #64a19d;
-}
-
-.btn-primary:hover {
-  background-color: #4f837f;
-}
-
-.btn-primary:focus {
-  background-color: #4f837f;
-  color: white;
-}
-
-.btn-primary:active {
-  background-color: #467370 !important;
-}
-
 .about-section {
-  padding-top: 10rem;
-  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+  padding-top: 5rem;
+  background: url("../img/texture_grey.png");
+  background-position: center;
+  background-repeat: repeat;
 }
 
 .about-section p {
@@ -204,7 +192,7 @@
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("http://image.insider-journeys.com/home/china.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -215,7 +203,7 @@
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
   height: auto;
-  font-family: 'Varela Round';
+  font-family: 'Brandon Grotesque';
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
@@ -228,18 +216,18 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #FF6442;
 }
 
 .contact-section .card h4 {
   font-size: 0.8rem;
-  font-family: 'Varela Round';
+  font-family: 'Brandon Grotesque';
   text-transform: uppercase;
   letter-spacing: 0.15rem;
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #FF6442;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -267,17 +255,17 @@
 }
 
 body {
-  font-family: 'Nunito';
+  font-family: 'Brandon Grotesque';
   letter-spacing: 0.0625em;
 }
 
 a {
-  color: #64a19d;
+  color: #FF6442;
 }
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #3c6360;
+  color: #d84d2f;
 }
 
 .bg-black {
@@ -289,7 +277,7 @@ a:focus, a:hover {
 }
 
 .text-primary {
-  color: #64a19d !important;
+  color: #0d2036 !important;
 }
 
 footer {
