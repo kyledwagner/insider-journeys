@@ -24,8 +24,8 @@ body, p {
 
 @font-face {
     font-family: 'Brandon Grotesque';
-    src: url('assets/fonts/BrandonGrotesque/BrandonGrotesque-MediumItalic.eot');
-    src: local('assets/fonts/BrandonGrotesque/Brandon Grotesque Medium Italic'), local('assets/fonts/BrandonGrotesque/BrandonGrotesque-MediumItalic'),
+    src: url('../fonts/BrandonGrotesque/BrandonGrotesque-MediumItalic');
+    src: local('../fonts/BrandonGrotesque/Brandon Grotesque Medium Italic'), local('../fonts/BrandonGrotesque/BrandonGrotesque-MediumItalic'),
         url('BrandonGrotesque-MediumItalic.eot?#iefix') format('embedded-opentype'),
         url('BrandonGrotesque-MediumItalic.woff') format('woff'),
         url('BrandonGrotesque-MediumItalic.ttf') format('truetype');
@@ -35,8 +35,8 @@ body, p {
 
 @font-face {
     font-family: 'Brandon Grotesque';
-    src: url('assets/fonts/BrandonGrotesque/BrandonGrotesque-Bold.eot');
-    src: local('assets/fonts/BrandonGrotesque/Brandon Grotesque Bold'), local('assets/fonts/BrandonGrotesque/BrandonGrotesque-Bold'),
+    src: url('../fonts/BrandonGrotesque/BrandonGrotesque-Bold.eot');
+    src: local('../fonts/BrandonGrotesque/Brandon Grotesque Bold'), local('../fonts/BrandonGrotesque/BrandonGrotesque-Bold'),
         url('BrandonGrotesque-Bold.eot?#iefix') format('embedded-opentype'),
         url('BrandonGrotesque-Bold.woff') format('woff'),
         url('BrandonGrotesque-Bold.ttf') format('truetype');
@@ -46,8 +46,8 @@ body, p {
 
 @font-face {
     font-family: 'Brandon Grotesque';
-    src: url('assets/fonts/BrandonGrotesque/BrandonGrotesque-Light.eot');
-    src: local('assets/fonts/BrandonGrotesque/Brandon Grotesque Light'), local('assets/fonts/BrandonGrotesque/BrandonGrotesque-Light'),
+    src: url('../fonts/BrandonGrotesque/BrandonGrotesque-Light.eot');
+    src: local('../fonts/BrandonGrotesque/Brandon Grotesque Light'), local('../fonts/BrandonGrotesque/BrandonGrotesque-Light'),
         url('BrandonGrotesque-Light.eot?#iefix') format('embedded-opentype'),
         url('BrandonGrotesque-Light.woff') format('woff'),
         url('BrandonGrotesque-Light.ttf') format('truetype');
@@ -57,8 +57,8 @@ body, p {
 
 @font-face {
     font-family: 'Brandon Grotesque';
-    src: url('assets/fonts/BrandonGrotesque/BrandonGrotesque-Black.eot');
-    src: local('assets/fonts/BrandonGrotesque/Brandon Grotesque Black'), local('assets/fonts/BrandonGrotesque/BrandonGrotesque-Black'),
+    src: url('../fonts/BrandonGrotesque/BrandonGrotesque-Black.eot');
+    src: local('../fonts/BrandonGrotesque/Brandon Grotesque Black'), local('../fonts/BrandonGrotesque/BrandonGrotesque-Black'),
         url('BrandonGrotesque-Black.eot?#iefix') format('embedded-opentype'),
         url('BrandonGrotesque-Black.woff') format('woff'),
         url('BrandonGrotesque-Black.ttf') format('truetype');
@@ -68,8 +68,8 @@ body, p {
 
 @font-face {
     font-family: 'Brandon Grotesque';
-    src: url('assets/fonts/BrandonGrotesque/BrandonGrotesque-Medium.eot');
-    src: local('assets/fonts/BrandonGrotesque/Brandon Grotesque Medium'), local('assets/fonts/BrandonGrotesque/BrandonGrotesque-Medium'),
+    src: url('../fonts/BrandonGrotesque/BrandonGrotesque-Medium.eot');
+    src: local('../fonts/BrandonGrotesque/Brandon Grotesque Medium'), local('../fonts/BrandonGrotesque/BrandonGrotesque-Medium'),
         url('BrandonGrotesque-Medium.eot?#iefix') format('embedded-opentype'),
         url('BrandonGrotesque-Medium.woff') format('woff'),
         url('BrandonGrotesque-Medium.ttf') format('truetype');
@@ -79,8 +79,8 @@ body, p {
 
 @font-face {
     font-family: 'Brandon Grotesque';
-    src: url('assets/fonts/BrandonGrotesque/BrandonGrotesque-ThinItalic.eot');
-    src: local('assets/fonts/BrandonGrotesque/Brandon Grotesque Thin Italic'), local('assets/fonts/BrandonGrotesque/BrandonGrotesque-ThinItalic'),
+    src: url('../fonts/BrandonGrotesque/BrandonGrotesque-ThinItalic.eot');
+    src: local('../fonts/BrandonGrotesque/Brandon Grotesque Thin Italic'), local('../fonts/BrandonGrotesque/BrandonGrotesque-ThinItalic'),
         url('BrandonGrotesque-ThinItalic.eot?#iefix') format('embedded-opentype'),
         url('BrandonGrotesque-ThinItalic.woff') format('woff'),
         url('BrandonGrotesque-ThinItalic.ttf') format('truetype');
@@ -90,8 +90,8 @@ body, p {
 
 @font-face {
     font-family: 'Brandon Grotesque';
-    src: url('assets/fonts/BrandonGrotesque/BrandonGrotesque-Thin.eot');
-    src: local('assets/fonts/BrandonGrotesque/Brandon Grotesque Thin'), local('assets/fonts/BrandonGrotesque/BrandonGrotesque-Thin'),
+    src: url('../fonts/BrandonGrotesque/BrandonGrotesque-Thin.eot');
+    src: local('../fonts/BrandonGrotesque/Brandon Grotesque Thin'), local('../fonts/BrandonGrotesque/BrandonGrotesque-Thin'),
         url('BrandonGrotesque-Thin.eot?#iefix') format('embedded-opentype'),
         url('BrandonGrotesque-Thin.woff') format('woff'),
         url('BrandonGrotesque-Thin.ttf') format('truetype');
@@ -101,8 +101,8 @@ body, p {
 
 @font-face {
     font-family: 'Brandon Grotesque';
-    src: url('assets/fonts/BrandonGrotesque/BrandonGrotesque-LightItalic.eot');
-    src: local('assets/fonts/BrandonGrotesque/Brandon Grotesque Light Italic'), local('assets/fonts/BrandonGrotesque/BrandonGrotesque-LightItalic'),
+    src: url('../fonts/BrandonGrotesque/BrandonGrotesque-LightItalic.eot');
+    src: local('../fonts/BrandonGrotesque/Brandon Grotesque Light Italic'), local('../fonts/BrandonGrotesque/BrandonGrotesque-LightItalic'),
         url('BrandonGrotesque-LightItalic.eot?#iefix') format('embedded-opentype'),
         url('BrandonGrotesque-LightItalic.woff') format('woff'),
         url('BrandonGrotesque-LightItalic.ttf') format('truetype');
@@ -112,8 +112,8 @@ body, p {
 
 @font-face {
     font-family: 'Brandon Grotesque';
-    src: url('assets/fonts/BrandonGrotesque/BrandonGrotesque-Regular.eot');
-    src: local('assets/fonts/BrandonGrotesque/Brandon Grotesque Regular'), local('assets/fonts/BrandonGrotesque/BrandonGrotesque-Regular'),
+    src: url('../fonts/BrandonGrotesque/BrandonGrotesque-Regular.eot');
+    src: local('../fonts/BrandonGrotesque/Brandon Grotesque Regular'), local('../fonts/BrandonGrotesque/BrandonGrotesque-Regular'),
         url('BrandonGrotesque-Regular.eot?#iefix') format('embedded-opentype'),
         url('BrandonGrotesque-Regular.woff') format('woff'),
         url('BrandonGrotesque-Regular.ttf') format('truetype');
@@ -123,8 +123,8 @@ body, p {
 
 @font-face {
     font-family: 'Brandon Grotesque';
-    src: url('assets/fonts/BrandonGrotesque/BrandonGrotesque-RegularItalic.eot');
-    src: local('assets/fonts/BrandonGrotesque/Brandon Grotesque Regular Italic'), local('assets/fonts/BrandonGrotesque/BrandonGrotesque-RegularItalic'),
+    src: url('../fonts/BrandonGrotesque/BrandonGrotesque-RegularItalic.eot');
+    src: local('../fonts/BrandonGrotesque/Brandon Grotesque Regular Italic'), local('../fonts/BrandonGrotesque/BrandonGrotesque-RegularItalic'),
         url('BrandonGrotesque-RegularItalic.eot?#iefix') format('embedded-opentype'),
         url('BrandonGrotesque-RegularItalic.woff') format('woff'),
         url('BrandonGrotesque-RegularItalic.ttf') format('truetype');
@@ -134,8 +134,8 @@ body, p {
 
 @font-face {
     font-family: 'Brandon Grotesque';
-    src: url('assets/fonts/BrandonGrotesque/BrandonGrotesque-BoldItalic.eot');
-    src: local('assets/fonts/BrandonGrotesque/Brandon Grotesque Bold Italic'), local('assets/fonts/BrandonGrotesque/BrandonGrotesque-BoldItalic'),
+    src: url('../fonts/BrandonGrotesque/BrandonGrotesque-BoldItalic.eot');
+    src: local('../fonts/BrandonGrotesque/Brandon Grotesque Bold Italic'), local('../fonts/BrandonGrotesque/BrandonGrotesque-BoldItalic'),
         url('BrandonGrotesque-BoldItalic.eot?#iefix') format('embedded-opentype'),
         url('BrandonGrotesque-BoldItalic.woff') format('woff'),
         url('BrandonGrotesque-BoldItalic.ttf') format('truetype');
@@ -145,8 +145,8 @@ body, p {
 
 @font-face {
     font-family: 'Brandon Grotesque';
-    src: url('assets/fonts/BrandonGrotesque/BrandonGrotesque-BlackItalic.eot');
-    src: local('assets/fonts/BrandonGrotesque/Brandon Grotesque Black Italic'), local('assets/fonts/BrandonGrotesque/BrandonGrotesque-BlackItalic'),
+    src: url('../fonts/BrandonGrotesque/BrandonGrotesque-BlackItalic.eot');
+    src: local('../fonts/BrandonGrotesque/Brandon Grotesque Black Italic'), local('../fonts/BrandonGrotesque/BrandonGrotesque-BlackItalic'),
         url('BrandonGrotesque-BlackItalic.eot?#iefix') format('embedded-opentype'),
         url('BrandonGrotesque-BlackItalic.woff') format('woff'),
         url('BrandonGrotesque-BlackItalic.ttf') format('truetype');
