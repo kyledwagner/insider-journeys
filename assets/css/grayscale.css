@@ -59,12 +59,15 @@
     transition: none;
     padding: 2rem 1.5rem;
     color: rgba(255, 255, 255, 0.9);
+    text-shadow: 0 0 0.25em black;
   }
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.5);
+    text-shadow: 0 0 0.25em black;
   }
   #mainNav .nav-link:active {
     color: white;
+    text-shadow: 0 0 0.25em black;
   }
   #mainNav.navbar-shrink {
     background-color: #0d2036;
@@ -96,7 +99,7 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/banner/highlights-of-vietnam.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.5) 0%, rgba(22, 22, 22, 0) 75%, #050505 100%), url("../img/banner/highlights-of-vietnam.jpg");
   clip-path: polygon(
     0 0,
     100% 0,
@@ -129,6 +132,7 @@
 .masthead h2 {
   max-width: 20rem;
   font-size: 1rem;
+  text-shadow: 0 0 0.25em black;
 }
 
 @media (min-width: 768px) {
