@@ -5,6 +5,71 @@ body, p {
     font-size: 1.2rem;
   }
 
+.phone {
+    background-image: url("../icons/icon-phone-white.svg");
+    background-position: 0 50%;
+    background-size: 2rem 2rem;
+    background-repeat: no-repeat;
+}
+
+.email {
+    background-image: url("../icons/icon-email-white.svg");
+    background-position: 0 50%;
+    background-size: 2rem 2rem;
+    background-repeat: no-repeat;
+}
+
+.brochure {
+    background-image: url("../icons/icon-brochure-white.svg");
+    background-position: 0 50%;
+    background-size: 2rem 2rem;
+    background-repeat: no-repeat;
+}
+
+.twitter {
+    background-image: url("../icons/icon-twitter-white.svg");
+}
+
+.twitter:hover,
+.twitter:focus {
+    background-image: url("../icons/icon-twitter-blue.svg");
+}
+
+.facebook {
+    background-image: url("../icons/icon-facebook-white.svg");
+}
+
+.facebook:hover,
+.facebook:focus {
+    background-image: url("../icons/icon-facebook-blue.svg");
+}
+
+.googleplus {
+    background-image: url("../icons/icon-googleplus-white.svg");
+}
+
+.googleplus:hover,
+.googleplus:focus {
+    background-image: url("../icons/icon-googleplus-blue.svg");
+}
+
+.instagram {
+    background-image: url("../icons/icon-instagram-white.svg");
+}
+
+.instagram:hover,
+.instagram:focus {
+    background-image: url("../icons/icon-instagram-blue.svg");
+}
+
+.bg-navy {
+    background-color: #0d2036;
+}
+
+.bg-teal {
+    background-color: #74a19a;
+}
+
 .btn-insider {
     color: #fff;
     background-color: #FF6442;
