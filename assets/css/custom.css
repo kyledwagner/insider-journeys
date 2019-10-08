@@ -23,65 +23,65 @@ body, p {
    }
 
 @font-face {
-    font-family: 'Brandon Grotesque';
-    src: url('...fonts/BrandonGrotesque/BrandonGrotesque-Black.woff2') format('woff2'), /* Super Modern Browsers */
-         url('..fonts/BrandonGrotesque/BrandonGrotesque-Black.woff') format('woff'), /* Pretty Modern Browsers */
+    font-family: 'BrandonGrotesque-Black';
+    src: url('..fonts/BrandonGrotesque/BrandonGrotesque-Black.woff2') format('woff2'), /* Super Modern Browsers */
+         url('..fonts/BrandonGrotesque/BrandonGrotesque-Black.woff') format('woff'); /* Pretty Modern Browsers */
     font-weight: 900;
     font-style: bold;
 }
 
 @font-face {
-    font-family: 'Brandon Grotesque';
+    font-family: 'BrandonGrotesque-BlackItalic';
     src: url('..fonts/BrandonGrotesque/BrandonGrotesque-BlackItalic.woff2') format('woff2'), /* Super Modern Browsers */
-         url('..fonts/BrandonGrotesque/BrandonGrotesque-BlackItalic.woff') format('woff'), /* Pretty Modern Browsers */
+         url('..fonts/BrandonGrotesque/BrandonGrotesque-BlackItalic.woff') format('woff'); /* Pretty Modern Browsers */
     font-weight: 900;
     font-style: italic;
 }
 
 @font-face {
-    font-family: 'Brandon Grotesque';
+    font-family: 'BrandonGrotesque-Bold';
     src: url('..fonts/BrandonGrotesque/BrandonGrotesque-Bold.woff2') format('woff2'), /* Super Modern Browsers */
-         url('..fonts/BrandonGrotesque/BrandonGrotesque-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+         url('..fonts/BrandonGrotesque/BrandonGrotesque-Bold.woff') format('woff'); /* Pretty Modern Browsers */
     font-weight: bold;
     font-style: bold;
 }
 
 @font-face {
-    font-family: 'Brandon Grotesque';
+    font-family: 'BrandonGrotesque-BoldItalic';
     src: url('..fonts/BrandonGrotesque/BrandonGrotesque-BoldItalic.woff2') format('woff2'), /* Super Modern Browsers */
-         url('..fonts/BrandonGrotesque/BrandonGrotesque-BoldItalic.woff') format('woff'), /* Pretty Modern Browsers */
+         url('..fonts/BrandonGrotesque/BrandonGrotesque-BoldItalic.woff') format('woff'); /* Pretty Modern Browsers */
     font-weight: bold;
     font-style: italic;
 }
 
 @font-face {
-    font-family: 'Brandon Grotesque';
+    font-family: 'BrandonGrotesque-Medium';
     src: url('..fonts/BrandonGrotesque/BrandonGrotesque-Medium.woff2') format('woff2'), /* Super Modern Browsers */
-         url('..fonts/BrandonGrotesque/BrandonGrotesque-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+         url('..fonts/BrandonGrotesque/BrandonGrotesque-Medium.woff') format('woff'); /* Pretty Modern Browsers */
     font-weight: 500;
     font-style: medium;
 }
 
 @font-face {
-    font-family: 'Brandon Grotesque';
+    font-family: 'BrandonGrotesque-MediumItalic';
     src: url('..fonts/BrandonGrotesque/BrandonGrotesque-MediumItalic.woff2') format('woff2'), /* Super Modern Browsers */
-         url('..fonts/BrandonGrotesque/BrandonGrotesque-MediumItalic.woff') format('woff'), /* Pretty Modern Browsers */
+         url('..fonts/BrandonGrotesque/BrandonGrotesque-MediumItalic.woff') format('woff'); /* Pretty Modern Browsers */
     font-weight: 500;
     font-style: italic;
 }
 
 @font-face {
-    font-family: 'Brandon Grotesque';
-    src: url('..fonts/BrandonGrotesque/BrandonGrotesque-Regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('..fonts/BrandonGrotesque/BrandonGrotesque-RegularItalic.woff') format('woff'), /* Pretty Modern Browsers */
+    font-family: 'BrandonGrotesque-RegularItalic';
+    src: url('..fonts/BrandonGrotesque/BrandonGrotesque-RegularItalic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('..fonts/BrandonGrotesque/BrandonGrotesque-RegularItalic.woff') format('woff'); /* Pretty Modern Browsers */
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
-    font-family: 'Brandon Grotesque';
+    font-family: 'BrandonGrotesque-Regular';
     src: url('..fonts/BrandonGrotesque/BrandonGrotesque-Regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('..fonts/BrandonGrotesque/BrandonGrotesque-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+         url('..fonts/BrandonGrotesque/BrandonGrotesque-Regular.woff') format('woff'); /* Pretty Modern Browsers */
     font-weight: normal;
     font-style: normal;
 }

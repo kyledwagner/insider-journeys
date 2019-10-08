@@ -175,12 +175,16 @@
 
         <!-- Plugin JavaScript -->
         <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+        <script src="assets/js/modernizr-custom.js"></script>
+        <script>
+          console.log(Modernizr.webp); // undefined
+        </script>
 
         <!-- Custom scripts for this template -->
         <script src="assets/js/grayscale.min.js"></script>
 
         <script>
-                ScrollReveal().reveal('.card', { duration: 1000, ease: 'ease-in-out', origin: 'bottom', distance: '25px', interval: 90, reset: false, mobile: true });
+          ScrollReveal().reveal('.card', { duration: 1000, ease: 'ease-in-out', origin: 'bottom', distance: '25px', interval: 90, reset: false, mobile: true });
         </script>
     </body>
 </html>
