@@ -26,41 +26,34 @@ body, p {
     background-repeat: no-repeat;
 }
 
-.twitter {
-    background-image: url("../icons/icon-twitter-white.svg");
+a svg:hover #twitter,
+a svg:hover #instagram {
+  fill: #ccc;
 }
 
-.twitter:hover,
-.twitter:focus {
-    background-image: url("../icons/icon-twitter-blue.svg");
+a svg #twitter,
+a svg #instagram {
+  transition: 100ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 100ms;
+  -webkit-transition-timing-function: ease-in-out;
 }
 
-.facebook {
-    background-image: url("../icons/icon-facebook-white.svg");
-}
+.social {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    background-size: cover;
+  }
+  .social-twitter {
+    background-image: url(http://kylewagner.me/insider-journeys/assets/icons/icon-twitter-white.svg);
 
-.facebook:hover,
-.facebook:focus {
-    background-image: url("../icons/icon-facebook-blue.svg");
-}
+  }
+  .social-twitter:hover,
+  .social-twitter:focus {
+    background-image: url(http://kylewagner.me/insider-journeys/assets/icons/icon-twitter-hover.svg);
+  }
 
-.googleplus {
-    background-image: url("../icons/icon-googleplus-white.svg");
-}
-
-.googleplus:hover,
-.googleplus:focus {
-    background-image: url("../icons/icon-googleplus-blue.svg");
-}
-
-.instagram {
-    background-image: url("../icons/icon-instagram-white.svg");
-}
-
-.instagram:hover,
-.instagram:focus {
-    background-image: url("../icons/icon-instagram-blue.svg");
-}
 
 .bg-navy {
     background-color: #0d2036;
