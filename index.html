@@ -28,7 +28,8 @@
               <div class="container">
                 <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <div class="navbar-img">
-                <img src="assets/img/IJ_LOGO.webp" class="img-fluid">
+                <img data-png="assets/img/IJ_LOGO.png" data-webp="assets/img/IJ_LOGO.webp" id="ij-nav-logo" alt="Insider Journeys Logo" class="img-fluid">
+                <!-- <img src="assets/img/IJ_LOGO.webp" class="img-fluid"> -->
                 </div>
                 </a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,7 +55,9 @@
             <header class="masthead">
               <div class="container d-flex h-100 align-items-center">
                 <div class="mx-auto text-center">
-                  <img src="assets/img/IJ_LOGO.webp" class="img-fluid" width="250">
+                  <img data-png="assets/img/IJ_LOGO.png" data-webp="assets/img/IJ_LOGO.webp" id="ij-main-logo" alt="Insider Journeys Logo" width="250">
+                  <!-- <img src="assets/img/IJ_LOGO.png" class="no-webp img-fluid" width="250">
+                  <img src="assets/img/IJ_LOGO.webp" class="webp img-fluid" width="250"> -->
                   <h2 class="text-white mx-auto mt-4 mb-4">Thanks for visiting Insider Journeys. We're completely rebuilding our website. While you're waiting, take a look at our new Small Group Journeys 2020/2021 brochure.</h2>
                   <a href="enquiry.html" class="btn btn-insider js-scroll-trigger">Download</a>
                   <a href="about.html" class="btn btn-secondary js-scroll-trigger">View Online</a>
@@ -178,6 +181,25 @@
         <script src="assets/js/modernizr-custom.js"></script>
         <script>
           console.log(Modernizr.webp); // undefined
+          // Set `src` attribute based on the result of Modernizr.webp
+          Modernizr.on('webp', function (result) {
+            var img = document.getElementById('ij-nav-logo');
+            if (result) {
+              img.src = img.getAttribute('data-webp');
+            }
+            else {
+              img.src = img.getAttribute('data-png');
+            }
+          });
+          Modernizr.on('webp', function (result) {
+            var img = document.getElementById('ij-main-logo');
+            if (result) {
+              img.src = img.getAttribute('data-webp');
+            }
+            else {
+              img.src = img.getAttribute('data-png');
+            }
+          });
         </script>
 
         <!-- Custom scripts for this template -->
