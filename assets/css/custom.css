@@ -26,32 +26,27 @@ body, p {
     background-repeat: no-repeat;
 }
 
-a svg:hover #twitter,
-a svg:hover #instagram {
-  fill: #ccc;
-}
 
-a svg #twitter,
-a svg #instagram {
-  transition: 100ms;
-  transition-timing-function: ease-in-out;
-  -webkit-transition: 100ms;
-  -webkit-transition-timing-function: ease-in-out;
+a .social {
+transition: 100ms;
+transition-timing-function: ease;
+-webkit-transition: 100ms;
+-webkit-transition-timing-function: ease;
 }
 
 .social {
-    display: inline-block;
-    width: 45px;
-    height: 45px;
+    display: block;
+    width: 40px;
+    height: 40px;
     background-size: cover;
   }
-  .social-twitter {
-    background-image: url(http://kylewagner.me/insider-journeys/assets/icons/icon-twitter-white.svg);
 
+  .social-twitter {
+    background-image: url(http://kylewagner.me/insider-journeys/assets/icons/icon-instagram-white.svg);
   }
   .social-twitter:hover,
   .social-twitter:focus {
-    background-image: url(http://kylewagner.me/insider-journeys/assets/icons/icon-twitter-hover.svg);
+    background-image: url(http://kylewagner.me/insider-journeys/assets/icons/icon-instagram-blue.svg);
   }
 
 
