@@ -10,7 +10,7 @@
 }
 
 #mainNav {
-  min-height: 56px;
+  min-height: 90px;
   background-color: #0d2036;
 }
 
@@ -60,11 +60,14 @@
     letter-spacing: 0.15rem;
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 1);
     text-shadow: 0 0 0.25em black;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    transition: 0.2s;
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.6);
     text-shadow: 0 0 0.25em black;
   }
   #mainNav .nav-link:active {
@@ -158,7 +161,7 @@
 
 .masthead h2 {
   max-width: 20rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
   text-shadow: 0 0 0.25em black;
 }
 
@@ -181,7 +184,7 @@
   }
   .masthead h2 {
     max-width: 30rem;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -189,6 +192,7 @@
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1rem 1.5rem;
   font-family: 'Brandon Grotesque';
+  font-weight: bold;
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: .15rem;
