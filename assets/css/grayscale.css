@@ -65,18 +65,18 @@
     transition: none;
     padding: 2rem 1.5rem;
     color: rgba(255, 255, 255, 1);
-    text-shadow: 0 0 0.25em black;
+    text-shadow: 0 0 0.25em rgba(0, 0, 0, 0.75);
     -webkit-transition: 0.2s;
     -moz-transition: 0.2s;
     transition: 0.2s;
   }
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.6);
-    text-shadow: 0 0 0.25em black;
+    text-shadow: 0 0 0.25em rgba(0, 0, 0, 0.75);
   }
   #mainNav .nav-link:active {
     color: white;
-    text-shadow: 0 0 0.25em black;
+    text-shadow: 0 0 0.25em rgba(0, 0, 0, 0.75);
   }
   #mainNav.navbar-shrink {
     background-color: #0d2036;
@@ -156,12 +156,12 @@
   font-family: 'Brandon Grotesque';
   font-size: 2.5rem;
   line-height: 2.5rem;
-  text-shadow: 0 0 0.10em black;
+  text-shadow: 0 0 0.10em rgba(0, 0, 0, 0.25);
 }
 
 .masthead h2 {
   font-size: 1.5rem;
-  text-shadow: 0 0 0.2em black;
+  text-shadow: 0 0 0.2em rgba(0, 0, 0, 0.25);
 }
 
 @media (min-width: 768px) {

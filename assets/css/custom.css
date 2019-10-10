@@ -1,12 +1,32 @@
 /* Main CSS for Insider-Journeys Microsite */
 @charset "UTF-8";
 
+.container a img:hover {
+    filter: none;
+	-webkit-filter: none;
+}
+
+.container a img.brightness:hover {
+    filter: brightness(0.75);
+	-webkit-filter: brightness(0.75);
+}
+
+.container a img {
+    transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.brightness {
+    filter: brightness(1);
+    -webkit-filter: brightness(1);
+}
+
 body, p {
     font-size: 1.2rem;
   }
 
 .banner-shadow {
-    box-shadow: 0 0 0.25em black;
+    box-shadow: 0 0 0.75em rgba(0, 0, 0, 0.4);
 }
 
 .contact-section h4 {
@@ -106,7 +126,7 @@ body, p {
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
     transition: 0.3s;
-    box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.7) !important;
+    box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.25);
    }
 
   .btn-insider:hover {
