@@ -209,6 +209,22 @@
     transition: all 0.3s ease;
 }
 
+@media (max-width: 576px) {
+  .btn-dl {
+    border: 2px solid #0d2036;
+    color: #0d2036;
+    background-color: transparent;
+    padding: 0.75rem 0.5rem;
+    font-family: 'Brandon Grotesque';
+    font-weight: bold;
+    font-size: 70%;
+    text-transform: uppercase;
+    letter-spacing: .10rem;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+}
+
 .btn-soon {
   border: 2px solid rgba(13,32,54,0.5);
   color: rgba(13,32,54,0.5);
@@ -219,6 +235,20 @@
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: .15rem;
+}
+
+@media (max-width: 576px) {
+  .btn-soon {
+    border: 2px solid rgba(13,32,54,0.5);
+    color: rgba(13,32,54,0.5);
+    background-color: transparent;
+    padding: 0.75rem 0.5rem;
+    font-family: 'Brandon Grotesque';
+    font-weight: bold;
+    font-size: 70%;
+    text-transform: uppercase;
+    letter-spacing: .10rem;
+  }
 }
 
 .btn-outline-dark:hover {
