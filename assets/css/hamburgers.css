@@ -33,7 +33,7 @@
   height: 24px;
   display: inline-block;
   position: relative;
-  margin-top: 15px; /* Changed the margin to center it better */
+  margin-top: 12px; /* Changed the margin to center it better */
 }
 
 .hamburger-inner {
