@@ -3,21 +3,25 @@
 
 .container a img:hover {
     filter: none;
+    -moz-filter: none;
 	-webkit-filter: none;
 }
 
 .container a img.brightness:hover {
     filter: brightness(0.75);
+    -moz-filter: brightness(0.75);
 	-webkit-filter: brightness(0.75);
 }
 
 .container a img {
     transition: all 0.5s;
+    -moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 }
 
 .brightness {
     filter: brightness(1);
+    -moz-filter: brightness(1);
     -webkit-filter: brightness(1);
 }
 
