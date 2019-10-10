@@ -209,6 +209,18 @@
     transition: all 0.3s ease;
 }
 
+.btn-soon {
+  border: 2px solid rgba(13,32,54,0.5);
+  color: rgba(13,32,54,0.5);
+  background-color: transparent;
+  padding: 1rem 1rem;
+  font-family: 'Brandon Grotesque';
+  font-weight: bold;
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+}
+
 .btn-outline-dark:hover {
   background-color: #0d2036;
   border-color: #0d2036;
