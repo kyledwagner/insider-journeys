@@ -176,6 +176,15 @@
   background-attachment: scroll;
   background-size: cover;
 }
+@media screen and (max-width: 768px) {
+  .webp .masthead {
+    padding-bottom: 3.5rem;
+  }
+  .no-webp .masthead {
+    padding-bottom: 3.5rem;
+  }
+}
+}
 
 .no-webp .masthead-enquiry {
   position: relative;

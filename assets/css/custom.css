@@ -289,6 +289,9 @@ body, p {
 .banner-shadow {
     box-shadow: 0 0 0.75em rgba(0, 0, 0, 0.4);
 }
+.banner-shadow-sm {
+  box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.4);
+}
 
 .contact-section h4 {
     font-weight: 700;
