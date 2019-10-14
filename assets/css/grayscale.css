@@ -98,7 +98,7 @@
   #mainNav.navbar-shrink .nav-link.active {
     color: #e3a825;
     outline: none;
-    border-bottom: 0.25rem solid #e3a825;
+    /* border-bottom: 0.25rem solid #e3a825; */
   }
 }
 
@@ -159,6 +159,56 @@
   min-height: 25rem;
   padding: 10rem 0;
   background: linear-gradient(to bottom, rgba(22, 22, 22, 0.5) 0%, rgba(22, 22, 22, 0) 75%, #050505 100%), url("../img/banner/highlights-of-vietnam.webp");
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - 6vw),
+    0 100%
+  );
+  -webkit-clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - 6vw),
+    0 100%
+  );
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.no-webp .masthead-enquiry {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 25rem;
+  padding: 10rem 0;
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.5) 0%, rgba(22, 22, 22, 0) 75%, #050505 100%), url("../img/banner/Bhutan_silhoueltte_monk.jpg");
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - 6vw),
+    0 100%
+  );
+  -webkit-clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - 6vw),
+    0 100%
+  );
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.webp .masthead-enquiry {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 25rem;
+  padding: 10rem 0;
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.5) 0%, rgba(22, 22, 22, 0) 75%, #050505 100%), url("../img/banner/Bhutan_silhoueltte_monk.webp");
   clip-path: polygon(
     0 0,
     100% 0,

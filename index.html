@@ -17,7 +17,6 @@
 
         <!-- Custom CSS for this template -->
         <link href="assets/css/hamburgers.css" rel="stylesheet">
-        <!-- <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet"> -->
 
 
     </head>
@@ -50,7 +49,7 @@
                       <a class="nav-link text-uppercase" href="about.html">About Us</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link text-uppercase " href="enquiry.html">Enquiry</a>
+                      <a data-scroll class="nav-link text-uppercase" href="#contact">Enquiry</a>
                     </li>
                   </ul>
                 </div>
@@ -169,12 +168,11 @@
       </section>
 
       <!-- Newsletter Signup Section -->
-      <section id="signup" class="signup-section">
+      <!-- <section id="signup" class="signup-section">
         <div class="container">
           <div class="row">
             <div class="col-md-10 col-lg-8 mx-auto text-center">
               <img src="assets/icons/icon-email-white.svg" width="60" height="60">
-              <!-- <i class="far fa-paper-plane fa-2x mb-2 text-white"></i> -->
               <h2 class="text-white text-uppercase mt-3 mb-5">Sign up for the latest deals and special offers</h2>
 
               <form class="form-inline d-flex">
@@ -185,7 +183,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- Contact Bar Section -->
       <section class="contact-bar-section bg-teal d-none d-xl-block">
@@ -208,7 +206,7 @@
       </section>
 
       <!-- Footer Section -->
-      <section class="contact-section bg-navy">
+      <section class="contact-section bg-navy" id="contact">
         <div class="container">
           <div class="row pb-0 pb-lg-5 h-100">
               <div class="col-lg-4 mx-auto text-lg-left text-center align-middle pb-5 pb-lg-0">
@@ -255,6 +253,10 @@
         <!-- Bootstrap core JavaScript -->
         <script src="vendor/jquery/jquery.min.js"></script>
         <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/smooth-scroll.polyfills.min.js"></script>
+        <script>
+            var scroll = new SmoothScroll('a[href*="#"]');
+        </script>
         <script>
             var $hamburger = $(".hamburger");
             $hamburger.on("click", function(e) {
@@ -289,12 +291,12 @@
           });
         </script>
 
-        <script>
+        <!-- <script>
           ScrollReveal().reveal('.card', { duration: 1000, ease: 'ease-in-out', origin: 'bottom', distance: '25px', interval: 90, reset: false, mobile: true });
           ScrollReveal().reveal('.reveal-up', { duration: 1000, ease: 'ease-in-out', origin: 'bottom', distance: '25px', interval: 90, reset: false, mobile: true });
           ScrollReveal().reveal('.reveal', { duration: 750, ease: 'ease', interval: 90, delay: '250', reset: false, mobile: true });
           // ScrollReveal().reveal('.nav-item', { duration: 1000, ease: 'ease-in-out', origin: 'top', distance: '25px', delay: '100', interval: 90, reset: false, mobile: true });
-        </script>
+        </script> -->
     </body>
 <!-- Website Created by Kyle D. Wagner -->
 </html>
