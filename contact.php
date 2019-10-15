@@ -4,10 +4,10 @@
  */
 
 // an email address that will be in the From field of the email.
-$from = 'info@insiderjourneys.com.au';
+$from = '<info@insiderjourneys.com.au>';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'kyle@focus.asia';
+$sendTo = '<kyle@focus.asia>';
 
 // subject of the email
 $subject = 'Enquiry from Online Contact Form';
