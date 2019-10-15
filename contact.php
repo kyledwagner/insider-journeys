@@ -14,7 +14,7 @@ $subject = 'Enquiry from Online Contact Form';
 
 // form field names and their translations.
 // array variable name => Text to appear in the email
-$fields = array('first-name' => 'First Name', 'last-name' => 'Last Name', 'phone' => 'Phone', 'email' => 'Email', 'comments' => 'Additonal Comments', 'country' => 'Country of Residence', 'travel-month' => 'Preferred Travel Month', 'travel-year' => 'Preferred Travel Year', 'duration' => 'Travel Duration', 'contact-method' => 'How do you want to be contacted?', 'countrypref' => 'Where would you like to go?', 'title' => 'Title', 'newsletter' => 'Do you want to receive our newsletter?',);
+$fields = array('first-name' => 'First Name', 'last-name' => 'Last Name', 'phone' => 'Phone', 'email' => 'Email', 'comments' => 'Additonal Comments', 'country' => 'Country of Residence', 'travel-month' => 'Preferred Travel Month', 'travel-year' => 'Preferred Travel Year', 'duration' => 'Travel Duration', 'contact-method' => 'How do you want to be contacted?', 'title' => 'Title', 'newsletter' => 'Do you want to receive our newsletter?',);
 
 // message that will be displayed when everything is OK :)
 $okMessage = 'Thanks! A representative from Insider-Journeys will be in touch shortly.';
@@ -42,9 +42,13 @@ try
             $emailText .= "$fields[$key]: $value\n";
         }
     }
+    $selectedcountrypref  = 'None';
+    if(isset($_POST['countrypref']) && is_array($_POST['countrypref']) && count($_POST['countrypref']) > 0){
+    $selectedCcuntrypref = implode(', ', $_POST['countrypref']);
+}
 
-    $_POST['countrypref']; // array('web-design', 'web-development')
-    foreach($_POST['countrypref'] as $country)
+$emailText .= 'Where would you like to go? ' . $selectedcountrypref;
+
 
     // All the neccessary headers for the email.
     $headers = array('Content-Type: text/plain; charset="UTF-8";',
