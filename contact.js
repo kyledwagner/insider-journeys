@@ -41,5 +41,5 @@ $(function () {
             });
             return false;
         }
-    })
+    });
 });
