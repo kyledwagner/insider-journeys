@@ -377,6 +377,19 @@
   border-color: #0d2036;
 }
 
+.enquiry-section {
+  padding-top: 8rem;
+  margin-top: -10rem;
+  background: url("../img/texture_grey.png");
+  background-position: cente sr;
+  background-repeat: repeat;
+}
+@media (min-width: 576px) {
+  .enquiry-section {
+    margin-top: -15rem;
+    }
+}
+
 .about-section {
   padding-top: 10rem;
   margin-top: -7rem;
