@@ -62,7 +62,7 @@
             </nav>
 
             <!-- Header -->
-            <header class="masthead-enquiry masthead-text">
+            <header class="masthead-enquiry masthead-text" id="masthead-enquiry">
                     <div class="container py-lg-5">
                     <div class="mx-auto text-center">
                         <div class="row">
@@ -622,6 +622,15 @@
           });
           Modernizr.on('webp', function (result) {
             var img = document.getElementById('ij-main-logo');
+            if (result) {
+              img.src = img.getAttribute('data-webp');
+            }
+            else {
+              img.src = img.getAttribute('data-png');
+            }
+          });
+          Modernizr.on('webp', function (result) {
+            var img = document.getElementById('masthead-enquiry');
             if (result) {
               img.src = img.getAttribute('data-webp');
             }
