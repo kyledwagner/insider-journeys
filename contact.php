@@ -40,9 +40,11 @@ try
         // If the field exists in the $fields array, include it in the email
         if (isset($fields[$key])) {
             $emailText .= "$fields[$key]: $value\n";
-            $countrypref = implode(',', $countrypref);
         }
     }
+
+    $_POST['countrypref']; // array('web-design', 'web-development')
+    foreach($_POST['countrypref'] as $country)
 
     // All the neccessary headers for the email.
     $headers = array('Content-Type: text/plain; charset="UTF-8";',
