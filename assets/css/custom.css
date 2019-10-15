@@ -380,6 +380,26 @@ body, p {
     background-color: #74a19a;
 }
 
+.btn-insider-soon {
+  font-family: 'Brandon Grotesque';
+  font-weight: bold;
+  font-size: 90%;
+  color: #fff;
+  background-color: rgb(122, 122, 122);
+  border-color: rgb(122, 122, 122);
+  box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.25);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.btn-insider-soon:hover,
+.btn-insider-soon:focus {
+  color: #fff;
+  background-color: #0d2036;
+  border-color: #0d2036;
+ }
+
 .btn-insider {
     font-family: 'Brandon Grotesque';
     font-weight: bold;
