@@ -14,7 +14,7 @@ $subject = 'Enquiry from Online Contact Form';
 
 // form field names and their translations.
 // array variable name => Text to appear in the email
-$fields = array('first-name' => 'First Name', 'last-name' => 'Last Name', 'phone' => 'Phone', 'email' => 'Email', 'comments' => 'Additonal Comments', 'country' => 'Country of Residence', 'travel-month' => 'Preferred Travel Month', 'travel-year' => 'Preferred Travel Year', 'duration' => 'Travel Duration',);
+$fields = array('first-name' => 'First Name', 'last-name' => 'Last Name', 'phone' => 'Phone', 'email' => 'Email', 'comments' => 'Additonal Comments', 'country' => 'Country of Residence', 'travel-month' => 'Preferred Travel Month', 'travel-year' => 'Preferred Travel Year', 'duration' => 'Travel Duration', 'contact-email' => 'I prefer to be contacted via email.', 'contact-call' => 'I prefer receiving a call.', 'contact-surprise' => 'Surprise me! I prefer recieving an email or a call.', 'country' => 'Where would you like to go?', 'title' => 'Title',);
 
 // message that will be displayed when everything is OK :)
 $okMessage = 'Thanks! A representative from Insider-Journeys will be in touch shortly.';

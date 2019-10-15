@@ -118,14 +118,14 @@
                       <div class="form-group row">
                       <label class="col-sm-4 col-form-label col-form-label-sm text-uppercase" for="validationDefault01">Title:<span style="color:red"> *</span></label>
                       <div class="col-sm-8">
-                      <select class="custom-select custom-select-sm my-0 mr-sm-2" id="validationDefault01" required>
+                      <select name="title" class="custom-select custom-select-sm my-0 mr-sm-2" id="validationDefault01" required>
                         <option selected>-- Select --</option>
-                        <option value="1">Mr.</option>
-                        <option value="2">Mrs.</option>
-                        <option value="3">Miss</option>
-                        <option value="4">Ms.</option>
-                        <option value="5">Dr.</option>
-                        <option value="6">Prof</option>
+                        <option value="Mr.">Mr.</option>
+                        <option value="Mrs.">Mrs.</option>
+                        <option value="Miss">Miss</option>
+                        <option value="Ms.">Ms.</option>
+                        <option value="Dr.">Dr.</option>
+                        <option value="Prof">Prof</option>
                       </select>
                       </div>
                       </div>
@@ -414,15 +414,15 @@
                       </div>
                       <div class="form-group row ml-0">
                           <div class="form-check form-check-inline pr-3">
-                              <input class="form-check-input" name="inlineRadioOptions" type="radio" id="Email-Method" value="Email">
+                              <input class="form-check-input" name="contact-email" type="radio" id="Email-Method" value="Email">
                               <label class="form-check-label col-form-label-sm text-uppercase" for="Email-Method">Email</label>
                             </div>
                             <div class="form-check form-check-inline pr-3">
-                              <input class="form-check-input" name="inlineRadioOptions" type="radio" id="Call-Method" value="Call">
+                              <input class="form-check-input" name="contact-call" type="radio" id="Call-Method" value="Call">
                               <label class="form-check-label col-form-label-sm text-uppercase" for="Call-Method">Call</label>
                             </div>
                             <div class="form-check form-check-inline">
-                              <input class="form-check-input" name="inlineRadioOptions" type="radio" id="Surprise-Method" value="Surprise Me">
+                              <input class="form-check-input" name="contact-surprise" type="radio" id="Surprise-Method" value="Surprise Me">
                               <label class="form-check-label col-form-label-sm text-uppercase" for="Surprise-Method">Surprise me</label>
                           </div>
                       </div>
@@ -460,13 +460,13 @@
                           <div class="col-sm-6">
                               <select class="custom-select custom-select-sm my-0" id="Duration-Preference" name="duration">
                                 <option selected>-- Select --</option>
-                                <option value="1">1-6 Days</option>
-                                <option value="2">1 Week</option>
-                                <option value="3">8-13 Days</option>
-                                <option value="4">2 Weeks</option>
-                                <option value="5">15-20 Days</option>
-                                <option value="6">3 Weeks</option>
-                                <option value="7 ">Over 3 Weeks</option>
+                                <option value="1-6 Days">1-6 Days</option>
+                                <option value="1 Week">1 Week</option>
+                                <option value="8-13 Days">8-13 Days</option>
+                                <option value="2 Weeks">2 Weeks</option>
+                                <option value="15-20 Days">15-20 Days</option>
+                                <option value="3 Weeks">3 Weeks</option>
+                                <option value="Over 3 Weeks ">Over 3 Weeks</option>
                               </select>
                           </div>
                       </div>
