@@ -42,12 +42,12 @@ try
             $emailText .= "$fields[$key]: $value\n";
         }
     }
-    $selectedcountrypref  = 'None';
-    if(isset($_POST['countrypref']) && is_array($_POST['countrypref']) && count($_POST['countrypref']) > 0){
-    $selectedCcuntrypref = implode(', ', $_POST['countrypref']);
+    $selectedCountry  = 'None';
+    if(isset($_POST['countries']) && is_array($_POST['countries']) && count($_POST['countries']) > 0){
+    $selectedCountry = implode(', ', $_POST['countries']);
 }
 
-$emailText .= 'Where would you like to go? ' . $selectedcountrypref;
+$emailText .= 'Where would you like to go? ' . $selectedCountry;
 
 
     // All the neccessary headers for the email.
