@@ -12,7 +12,7 @@ $(function () {
 
         // if the validator does not prevent form submit
         if (!e.isDefaultPrevented()) {
-            var url = "http://eightatwork.com/contact.php";
+            var url = "http://next.asia-reps.com/contact.php";
 
             // POST values in the background the the script URL
             $.ajax({
