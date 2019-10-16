@@ -7,7 +7,7 @@
 $from = '<info@insiderjourneys.com.au>';
 
 // an email address that will receive the email with the output of the form
-$sendTo = '<kyle@focus.asia>';
+$sendTo = '<info@insiderjourneys.com.au>';
 
 // subject of the email
 $subject = 'Enquiry from Online Contact Form';
