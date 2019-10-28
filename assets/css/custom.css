@@ -1,6 +1,15 @@
 /* Main CSS for Insider-Journeys Microsite */
 @charset "UTF-8";
 
+.unlink {
+  text-decoration: none;
+  color: white;
+}
+.unlink:hover {
+  text-decoration: none;
+  color: white;
+}
+
   .timeline {
     position: relative;
   }
