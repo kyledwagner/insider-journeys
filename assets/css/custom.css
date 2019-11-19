@@ -1,6 +1,22 @@
 /* Main CSS for Insider-Journeys Microsite */
 @charset "UTF-8";
 
+/* Fixing Anchor Link with Header */
+#private-journeys::before {
+  content: '';
+  display: block;
+  height: 125px;
+  margin-top: -125px;
+  visibility: hidden;
+}
+#group-journeys::before {
+  content: '';
+  display: block;
+  height: 125px;
+  margin-top: -125px;
+  visibility: hidden;
+}
+
 .unlink {
   text-decoration: none;
   color: white;
